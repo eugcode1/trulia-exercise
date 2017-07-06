@@ -1,0 +1,19 @@
+.thumb{
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+.built{
+    float: right;
+    margin-right: 10px;
+    font-size: 0.8em;
+    color: #5c5c5c;
+}
+.btn-green {
+    color: #fff;
+    background-color: #8BC34A;
+    border-color: #8BC34A;
+}
+.btn-green.active{
+    background: #0275d8;
+}

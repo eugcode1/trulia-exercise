@@ -47,8 +47,8 @@ $(function () {
         for (var i in dataArr){
             var str = "<div class='col-sm-6 col-12 pb-5'><div class='card item'>";
             str += "<div class='row'>";
-            str += "<div class='col-sm-4 col-12'><a href = '"+ dataArr[i]["url"] + "'><img class='thumb' src ='" + dataArr[i]["thumb"] + "'/></a></div>";
-            str += "<div class='col-sm-8 col-12'>";
+            str += "<div class='col-lg-4 col-12'><a href = '"+ dataArr[i]["url"] + "'><img class='thumb' src ='" + dataArr[i]["thumb"] + "'/></a></div>";
+            str += "<div class='col-lg-8 col-12'>";
             if(dataArr[i]["built"] !== undefined){
                 str += "<p class='built'>Built in " + dataArr[i]["built"] + "</p>";
             }
